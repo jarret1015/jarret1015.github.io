@@ -7,7 +7,11 @@
 
 ## [关于我](https://jarret1015.github.io/about/)
 
-Jarret，Java EE 从业经验，架构师、微服务布道师、Dubbo 维护者。目前主要负责**集团微服务技术实施、架构衍进、基础设施构建等。重点关注云计算、微服务以及软件架构等领域。通过SUN Java（SCJP、SCWCD、SCBCD）以及Oracle OCA 等的认证。
+你好 👋
+
+Show me the code!
+
+更多我的开源项目请参阅我的GitHub个人仓库！
 
 
 ## [归档文章](https://jarret1015.github.io/archive/)
