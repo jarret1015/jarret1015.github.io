@@ -11,6 +11,3 @@ Jarret，Java EE 从业经验，架构师、微服务布道师、Dubbo 维护者
 
 
 ## [归档文章](https://jarret1015.github.io/archive/)
-
-
-## [《Spring Boot 编程思想》](https://jarret1015.github.io/books/thinking-in-spring-boot/)
