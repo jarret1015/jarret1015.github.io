@@ -22,7 +22,7 @@
 
 
 
-小马哥（mercyblitz)[^23]
+Jarret
 
 2019 年 3 月 5 日
 
@@ -48,4 +48,3 @@
 [^20]: https://space.bilibili.com/2494318
 [^21]: https://www.youtube.com/channel/UCmxVT2rkFwDX1tPpVDPJQaQ
 [^22]:《游褒禅山记》，王安石
-[^23]:小马哥，[Java 劝退师](https://www.douyu.com/mercyblitz)，[Apache Dubbo](https://dubbo.apache.org/) PPMC、[Spring Cloud Alibaba](https://github.com/spring-cloud-incubator/spring-cloud-alibaba) 项目架构师 - https://mercyblitz.github.io/about/

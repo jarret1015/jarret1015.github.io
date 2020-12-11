@@ -1,6 +1,6 @@
 # 《Spring Boot 编程思想》- 示例工程
 
-《Spring Boot 编程思想》所有的示例代码均存放在 GitHub 工程 [https://github.com/mercyblitz/thinking-in-spring-boot-samples](https://github.com/mercyblitz/thinking-in-spring-boot-samples)，该工程为标准的 Maven 多模块工程，运行时要求为 [Java](https://www.oracle.com/technetwork/java/index.html) `1.8+` 以及 [Maven](https://maven.apache.org/) `3.2.5+`。其协议为 "[Apache License Version 2.0](https://github.com/mercyblitz/thinking-in-spring-boot-samples/blob/master/LICENSE)"，不必担心商业用途所带来的风险。由于本书尚未完全截稿，工程结构未来可能存在微调。因此，当前内容无法确保百分之百匹配，请读者定期关注 [`README.md`](https://github.com/mercyblitz/thinking-in-spring-boot-samples) 文件，确保咨询的更新。
+《Spring Boot 编程思想》所有的示例代码均存放在 GitHub 工程 [https://github.com/jarret1015/thinking-in-spring-boot-samples](https://github.com/mercyblitz/thinking-in-spring-boot-samples)，该工程为标准的 Maven 多模块工程，运行时要求为 [Java](https://www.oracle.com/technetwork/java/index.html) `1.8+` 以及 [Maven](https://maven.apache.org/) `3.2.5+`。其协议为 "[Apache License Version 2.0](https://github.com/mercyblitz/thinking-in-spring-boot-samples/blob/master/LICENSE)"，不必担心商业用途所带来的风险。由于本书尚未完全截稿，工程结构未来可能存在微调。因此，当前内容无法确保百分之百匹配，请读者定期关注 [`README.md`](https://github.com/mercyblitz/thinking-in-spring-boot-samples) 文件，确保咨询的更新。
 
 
 
@@ -17,22 +17,22 @@
   
 | 子模块                                                       | 说明                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [shared-libraries](https://github.com/mercyblitz/thinking-in-spring-boot-samples/tree/master/shared-libraries) | 共享类库，为其他工程提供基础 API 或依赖                      |
-| [spring-boot-1.x-samples](https://github.com/mercyblitz/thinking-in-spring-boot-samples/tree/master/spring-boot-1.x-samples) | Spring Boot 1.x 示例工程，包含六个子模块，主要用于参考和对比 Spring Boot 1.x 各版本中的实现差异，并且提供章节示例代码实现 |
-| [spring-boot-2.0-samples](https://github.com/mercyblitz/thinking-in-spring-boot-samples/tree/master/spring-boot-2.0-samples) | Spring Boot 2.0 示例工程，也是主示例工程，以 `2.0.2.RELEASE` 作为基础版本 |
-| [spring-framework-samples](https://github.com/mercyblitz/thinking-in-spring-boot-samples/tree/master/spring-framework-samples) | Spring Framework 示例工程，作为 Spring Boot 底层实现框架，版本范围从 2.0 到 5.0 |
-| [traditional-samples](https://github.com/mercyblitz/thinking-in-spring-boot-samples/tree/master/traditional-samples) | 传统 Java EE 示例工程，用于理解 Java EE 与 Spring Boot 关联和差异 |
+| [shared-libraries](https://github.com/jarret1015/thinking-in-spring-boot-samples/tree/master/shared-libraries) | 共享类库，为其他工程提供基础 API 或依赖                      |
+| [spring-boot-1.x-samples](https://github.com/jarret1015/thinking-in-spring-boot-samples/tree/master/spring-boot-1.x-samples) | Spring Boot 1.x 示例工程，包含六个子模块，主要用于参考和对比 Spring Boot 1.x 各版本中的实现差异，并且提供章节示例代码实现 |
+| [spring-boot-2.0-samples](https://github.com/jarret1015/thinking-in-spring-boot-samples/tree/master/spring-boot-2.0-samples) | Spring Boot 2.0 示例工程，也是主示例工程，以 `2.0.2.RELEASE` 作为基础版本 |
+| [spring-framework-samples](https://github.com/jarret1015/thinking-in-spring-boot-samples/tree/master/spring-framework-samples) | Spring Framework 示例工程，作为 Spring Boot 底层实现框架，版本范围从 2.0 到 5.0 |
+| [traditional-samples](https://github.com/jarret1015/thinking-in-spring-boot-samples/tree/master/traditional-samples) | 传统 Java EE 示例工程，用于理解 Java EE 与 Spring Boot 关联和差异 |
 
 - 文件
 
 | 文件                                                         | 说明                          |
 | ------------------------------------------------------------ | ----------------------------- |
-| [.gitignore](https://github.com/mercyblitz/thinking-in-spring-boot-samples/blob/master/.gitignore) | Git 版本控制忽略文件          |
-| [LICENSE](https://github.com/mercyblitz/thinking-in-spring-boot-samples/blob/master/LICENSE) | 工程许可文件                  |
-| [README.md](https://github.com/mercyblitz/thinking-in-spring-boot-samples/blob/master/README.md) | 工程说明文件                  |
-| [pom.xml](https://github.com/mercyblitz/thinking-in-spring-boot-samples/blob/master/pom.xml) | 示例工程 Maven `pom.xml` 文件 |
+| [.gitignore](https://github.com/jarret1015/thinking-in-spring-boot-samples/blob/master/.gitignore) | Git 版本控制忽略文件          |
+| [LICENSE](https://github.com/jarret1015/thinking-in-spring-boot-samples/blob/master/LICENSE) | 工程许可文件                  |
+| [README.md](https://github.com/jarret1015/thinking-in-spring-boot-samples/blob/master/README.md) | 工程说明文件                  |
+| [pom.xml](https://github.com/jarret1015/thinking-in-spring-boot-samples/blob/master/pom.xml) | 示例工程 Maven `pom.xml` 文件 |
 
-其中，又以 [spring-boot-2.0-samples](https://github.com/mercyblitz/thinking-in-spring-boot-samples/tree/master/spring-boot-2.0-samples) 、[spring-boot-1.x-samples](https://github.com/mercyblitz/thinking-in-spring-boot-samples/tree/master/spring-boot-1.x-samples) 以及 [spring-framework-samples](https://github.com/mercyblitz/thinking-in-spring-boot-samples/tree/master/spring-framework-samples) 为本示例工程最核心的子模块，对此将详细说明。
+其中，又以 [spring-boot-2.0-samples](https://github.com/jarret1015/thinking-in-spring-boot-samples/tree/master/spring-boot-2.0-samples) 、[spring-boot-1.x-samples](https://github.com/mercyblitz/thinking-in-spring-boot-samples/tree/master/spring-boot-1.x-samples) 以及 [spring-framework-samples](https://github.com/mercyblitz/thinking-in-spring-boot-samples/tree/master/spring-framework-samples) 为本示例工程最核心的子模块，对此将详细说明。
 
 
 

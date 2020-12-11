@@ -59,7 +59,7 @@ InfoQ英文站结果供参考
 
 - 某个技术为什么要被划在这个技术采用生命周期内？这个技术在国内的发展情况以及机遇和挑战是什么？
 
-> [小马哥（@mercyblitz）](https://mercyblitz.github.io/about/)：
+> [Jarret](https://jarret1015.github.io/about/)：
 >
 > - Java / JVM 语言 - Java 8 已被业界普遍接受，无论像 Spring Framework、Spring Boot，以及 Spring Cloud 这样的现代 Java 框架，还是类似于 Vert.x、RxJava 或 Reactor 这类小众框架，均已构建在 Java 8 以及更高的版本之上。同时，Lambda 语法以及 Stream API 也在开发人员的日常工作中广泛地运用，并且没有看到语法回退的趋势。因此，Java 8 和 Lambda/Stream 可归类为“**晚期大众**”。 JVM 语言 Scala 和 Groovy 已快成为明日黄花，往昔的光芒逐渐地被后期之秀 Kotlin 替代，故 Scala  和 Groovy  属于“**晚期大众**”，而 Kotlin 则纳入”**早期大众**“ 之流。然而 Java 9 的被接受程度则没有那么幸运，尽管我们等待它的到来已有数年。 Java 模块化作为 Java 9 核心的特性，就我个人而言，完全能够理解和接受它的设计。虽然模块化增强了模块的隔离性，减少了内存的 Footprint，然而，它更强的封装性无形之中增加了管理依赖的成本。所谓曲高和寡，夸张地说，模块化形同虚设。因此，应用升级 Java 9 的效果相当于 Java API 以及 JVM 的更新。同时，Oracle 宣布从 Java 9 开始，每半年将更新一个 Java 大版本。那么，更多的人会选择 Java 11 这样的长期支持（Long-Term -Support, LTS）版本，换言之，Java 9/10 则成了过渡版本（non‑LTS）[^1]。因此，Java 11 将是未来 Java 用户的最可能选项，将其列为“早期采用者”。至于 Java 13，最近有注意到该本版在新 GC 算法的提升以及 Socket 实现上的变化[^2]，还是非常令人期待的，故排在“**创新者**” 之列。除了模块化之外，Java 9 还有大量的 API 更新，在偏开发侧的部分，Flow API 可能是最有吸引力的，提供了 Reactive Streams[^3] 标准接口以及实现，并且内建了 HTTP Client Reactive 实现。尽管 Spring 和 Eclipse 社区大力的推广，并且 Java Lambda 以及 Stream API 也流行开来，不过对开发者而言，Reactive Streams 技术还是相对陌生，将其放在 “**早期大众**“。同理，Spring 引入的 Reactor 框架也属于“**早期大众**” 阶段。虽然 RxJava 并非 Reactive Streams 的实现，但是相较于前两者而言，它在 Reactive 编程中的地位必然是有过之而无不及的，故也在 “**早期大众**“ 之中。
 >
@@ -83,8 +83,6 @@ InfoQ英文站结果供参考
 
 - 国内是否在某个相对完整的领域，形成甚至开始引领技术趋势？
 
-> [小马哥（@mercyblitz）](https://mercyblitz.github.io/about/)：
->
 > 在国内的开源软件中，Apache Dubbo（后文简称 Dubbo）常年受到业界的青睐，并荣获多次殊荣。个人认为 Dubbo 有机会引领技术趋势。Dubbo 从过去的高性能 RPC 框架，正在走向 Cloud Native 的生态系统（后文简称 Dubbo ECO System）。具体执行的步骤也是 Dubbo 社区对 Cloud Native 的发展趋势研判，首要场景是 Dubbo 在 Spring Cloud 之间的整合。这部分工作已在 Spring Cloud Alibaba 项目中完成，作为项目中的核心成员，Dubbo Spring Cloud 可无缝地替换过传统 Spring Cloud OpenFeign，不仅提供更好的性能，并且具备更多的负载均衡策略和熔断等特性。同时，灵活的扩展点和内建实现帮助 Dubbo 适应不同语言、环境和基础设施。随着 Dubbo 内核即将发布 Cloud Native（即将发布）特性 ，能够将 Dubbo 帮助独立于任意的基础设施，实现 Dubbo（原生）与 Spring Cloud（原生）调用互通，甚至在 K8S 场景下。无论 Dubbo 身处何处，统一的编程模型帮助开发人员快速和高效地实现业务逻辑，达成 “**Write Once, Run Anywhere**” 的目的。后续，Dubbo 在多语言、Mesh 化 以及 Istio 的建树将逐一呈现。
 
 
@@ -99,20 +97,14 @@ InfoQ英文站结果供参考
 
 - 您的企业使用的JDK版本情况，是否采用了某个OpenJDK 发行版？您如何看待OpenJDK 在国内的发展？（如果没有采用，原因以及后续计划？）
 
-  > [小马哥（@mercyblitz）](https://mercyblitz.github.io/about/)：
-  >
   > 在开源方面， OpenJDK 的选择仅为 Oracle 官方提供。如果是公司内部的话，则是  OpenJDK Alibaba 的分支。OpenJDK 在国内直接拿去使用的多，有能力围之扩展的公司凤毛菱角。可能随着 OpenJDK 不同分支的成熟，未来国内公司选择面将会更广
 
 - 您的企业目前在支持Java技术栈方面的策略是什么？计划和目标是什么？相关的核心痛点或者业务需求是什么？
 
-  > [小马哥（@mercyblitz）](https://mercyblitz.github.io/about/)：
-  >
   > 关于公司在战略层面的设定，个人是不是非常清楚的。不过，作为一名基础设施的研发人员，自身遇到和周遭听到同事抱怨的痛点还是存在的。比如，Java 9 之后的版本更新问题。 Reactive Streams 推广和落地时的阻碍，毕竟大多数开发人员从事业务开发，业务系统的稳定性是他们核心 KPI 之一，他们缺少足够的勇气和动力蒸腾新技术的引进、也没有时间和精力关注其中细节，尤其当没有明显特性变化的基础设施 和 API 升级时。对于本人而言，我比较关心 JVM 中的变化，包括 GC 算法和性能提升，比如 C1 和 C2 编译所导致的延迟和资源开销，如何帮助 JVM 快速启停，因为这些会限制 Java 作为编程语言在云原生时代的想象空间
 
 - 对于当前Java的整体发展情况，您有什么感想？
 
-  > [小马哥（@mercyblitz）](https://mercyblitz.github.io/about/)：
-  >
   > Java 目前仍具在编程语言排行榜上夺魁，不过在整体比重上微幅下滑。个人看来，未来这个趋势还将持续。究其原因，一方面是由于新语种出现的中短期效应，一方面是 Java 的编程复杂度并没有明显的降低，比如 I/O 处理、并发/并行计算，以及类加载等等。再者是 Java 与操作系统之间的交互仍不够充分，尽管 Java 9 开始提供了不少的 API，然而了解和使用的群体不足。Java 在这方面明显不及 GO 语言。
   >
   > 从语言层面来看，Java 正在向主流非 Java 语言融合，解决其中鸿沟的起手式就是语法的变化，比如 Java 8 的 Lambda 表达式 和 Java 10 的局部变量类型（`var` ）等。个人认为这是一件好事，未来前后端不分家，相互渗透，对于彼此语言都是良性发展。
@@ -125,24 +117,15 @@ InfoQ英文站结果供参考
 
 - 请介绍您的企业是否进行了微服务实践？如果是，在整体系统架构中的比例是多少？如果不是，是否有相关计划？
 
-  > [小马哥（@mercyblitz）](https://mercyblitz.github.io/about/)：
-  >
+  
   > 大多数应用已实施微服务架构，微服务应用的比重高达8成以上
 
 - 您所采用的主要微服务框架是什么？如何判断国内该领域的技术发展情况？您认为微服务主流框架的争夺是否尘埃落定？
 
-  > [小马哥（@mercyblitz）](https://mercyblitz.github.io/about/)：
-  >
+  
   > 采用的微服务架构主要以 Spring Boot/Cloud 以及 Apache Dubbo 为主，同时这也是国内大多数公司作为微服务框架的选择。不过，在国内，一直都有 Spring Cloud 与 Apache Dubbo 的优劣之争，然而这个争端似乎没有持续太长的时间，因为随着 Dubbo Spring Cloud（作为 Spring Cloud Alibaba 的一部分）发布之后，强强联合，互补互助
 
 - 您如何看待Service Mesh在国内的发展现状和发展前景？
 
-  > [小马哥（@mercyblitz）](https://mercyblitz.github.io/about/)：
-  >
+ 
   > 个人对 Service Mesh 的看法是乐观偏谨慎的，一方面，作为从业人员，对于技术总有猎奇的心态。另外一方面，这个技术在设计上存在一些理想主义，比如，性能损耗以及稳定性，并且分布式场景中的典型问题并没有得到解决和改善，比如数据一致性、分布式事务等。据我所知，国内不少的互联网公司，如阿里巴巴、蚂蚁金服以及美团等已经开始在生产环境试点 Service Mesh，听起来这是一件好事。前沿的技术总有有人去探险。如果成功，前人栽树，后人乘凉。至于它能否成功，主要看市场是否愿意买单
-
-
-
-## 参与专家：
-
-[小马哥（@mercyblitz）](https://mercyblitz.github.io/about/)，《Spring Boot 编程思想》作者、Apache Dubbo PMC 和 Spring-Cloud-Alibaba Architect
