@@ -35,19 +35,18 @@
 
 
 
-> [小马哥（@mercyblitz）](https://mercyblitz.github.io/about/)：
->
-> | 创新者                    | 早期采用者  | 早期大众         | 晚期大众                     |
-> | ------------------------- | ----------- | ---------------- | ---------------------------- |
-> | Java 13                   | Java 11     | OpenJDK          | Java 8                       |
-> | Jakarta EE                | GraalVM     | Reactive Streams | Lambda/Stream                |
-> | Apache Dubbo (ECO System) | Vert.x      | Kotlin           | Scala、Groovy                |
-> |                           | TarsJava    | RxJava/Reactor   | Java EE（Jakarta EE）、Netty |
-> |                           | ServiceComb |                  | Spring Framework             |
-> |                           |             |                  | Spring Boot/Cloud            |
-> |                           |             |                  | Apache Dubbo                 |
+ [小马哥（@mercyblitz）](https://mercyblitz.github.io/about/)
 
-![img](https://uploader.shimo.im/f/PlaoGDZsEGoeqwtL.png!thumbnail)
+ | 创新者                    | 早期采用者  | 早期大众         | 晚期大众                     |
+ | ------------------------- | ----------- | ---------------- | ---------------------------- |
+ | Java 13                   | Java 11     | OpenJDK          | Java 8                       |
+ | Jakarta EE                | GraalVM     | Reactive Streams | Lambda/Stream                |
+ | Apache Dubbo (ECO System) | Vert.x      | Kotlin           | Scala、Groovy                |
+ |                           | TarsJava    | RxJava/Reactor   | Java EE（Jakarta EE）、Netty |
+ |                           | ServiceComb |                  | Spring Framework             |
+ |                           |             |                  | Spring Boot/Cloud            |
+ |                           |             |                  | Apache Dubbo                 |
+
 
 InfoQ英文站结果供参考
 
