@@ -25,7 +25,7 @@ layout: default
                 <hr style="visibility: hidden;">
                 <ul class="pager">
                     {% if page.previous.url %}
-                    <li class="previous">
+                    <li class="上一页">
                         <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">
                         上一页<br>
                         <span>{{page.previous.title}}</span>
@@ -33,7 +33,7 @@ layout: default
                     </li>
                     {% endif %}
                     {% if page.next.url %}
-                    <li class="next">
+                    <li class="下一页">
                         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">
                             下一页<br>
                         <span>{{page.next.title}}</span>
